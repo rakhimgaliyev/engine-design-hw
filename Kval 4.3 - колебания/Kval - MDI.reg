@@ -1,0 +1,14 @@
+REGEDIT4
+
+[HKEY_CURRENT_USER\SOFTWARE\BMSTU Programs\Kval]
+"Dimension"=hex:02,00,02,00,02,00,01,00,00,00,00,00,01,00,00,00,00,00,00,00,00,\
+  00,00,00
+
+[HKEY_CURRENT_USER\SOFTWARE\BMSTU Programs\Kval\Recent files]
+"File#1"=""
+"File#2"=""
+"File#3"=""
+"File#4"=""
+"File#0"="E:\\Borland\\Delphi6\\Projects\\Kval - MDI\\1.kvl"
+"File#5"=""
+
