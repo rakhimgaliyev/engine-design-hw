@@ -541,8 +541,8 @@
     <Materials>
       <Material>
         <Name>Structural Steel</Name>
-        <DataTransferID>3fef12d4-bc0a-4cab-a7fa-82849be71001</DataTransferID>
-        <PreviousTransferIDs>a4862bdf-2304-4d76-b0be-fc653914146a,,</PreviousTransferIDs>
+        <DataTransferID>4b0484a2-4c53-4b6b-9070-4d7ec07d22f4</DataTransferID>
+        <PreviousTransferIDs>a4862bdf-2304-4d76-b0be-fc653914146a,,3fef12d4-bc0a-4cab-a7fa-82849be71001,,</PreviousTransferIDs>
       </Material>
     </Materials>
   </ANSYSWBTransferData>
