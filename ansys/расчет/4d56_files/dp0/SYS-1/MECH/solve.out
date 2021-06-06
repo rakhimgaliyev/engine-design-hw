@@ -1,0 +1,1111 @@
+
+ ANSYS Mechanical Enterprise                       
+
+
+ *------------------------------------------------------------------*
+ |                                                                  |
+ |   W E L C O M E   T O   T H E   A N S Y S (R)  P R O G R A M     |
+ |                                                                  |
+ *------------------------------------------------------------------*
+
+
+
+
+ ***************************************************************
+ *            ANSYS Release 19.2     LEGAL NOTICES             *
+ ***************************************************************
+ *                                                             *
+ * Copyright 1971-2018 ANSYS, Inc.  All rights reserved.       *
+ * Unauthorized use, distribution or duplication is            *
+ * prohibited.                                                 *
+ *                                                             *
+ * Ansys is a registered trademark of ANSYS, Inc. or its       *
+ * subsidiaries in the United States or other countries.       *
+ * See the ANSYS, Inc. online documentation or the ANSYS, Inc. *
+ * documentation CD or online help for the complete Legal      *
+ * Notice.                                                     *
+ *                                                             *
+ ***************************************************************
+ *                                                             *
+ * THIS ANSYS SOFTWARE PRODUCT AND PROGRAM DOCUMENTATION       *
+ * INCLUDE TRADE SECRETS AND CONFIDENTIAL AND PROPRIETARY      *
+ * PRODUCTS OF ANSYS, INC., ITS SUBSIDIARIES, OR LICENSORS.    *
+ * The software products and documentation are furnished by    *
+ * ANSYS, Inc. or its subsidiaries under a software license    *
+ * agreement that contains provisions concerning               *
+ * non-disclosure, copying, length and nature of use,          *
+ * compliance with exporting laws, warranties, disclaimers,    *
+ * limitations of liability, and remedies, and other           *
+ * provisions.  The software products and documentation may be *
+ * used, disclosed, transferred, or copied only in accordance  *
+ * with the terms and conditions of that software license      *
+ * agreement.                                                  *
+ *                                                             *
+ * ANSYS, Inc. is a UL registered                              *
+ * ISO 9001:2008 company.                                      *
+ *                                                             *
+ ***************************************************************
+ *                                                             *
+ * This product is subject to U.S. laws governing export and   *
+ * re-export.                                                  *
+ *                                                             *
+ * For U.S. Government users, except as specifically granted   *
+ * by the ANSYS, Inc. software license agreement, the use,     *
+ * duplication, or disclosure by the United States Government  *
+ * is subject to restrictions stated in the ANSYS, Inc.        *
+ * software license agreement and FAR 12.212 (for non-DOD      *
+ * licenses).                                                  *
+ *                                                             *
+ ***************************************************************
+
+ Release 19.2
+     
+ Point Releases and Patches installed:   
+     
+ ANSYS, Inc. Products Release 19.2   
+ SpaceClaim Release 19.2 
+ AIM Release 19.2
+ Autodyn Release 19.2
+ LS-DYNA Release 19.2
+ CFD-Post only Release 19.2  
+ CFX (includes CFD-Post) Release 19.2
+ Chemkin Release 19.2
+ EnSight Release 19.2
+ FENSAP-ICE Release 19.2 
+ Fluent (includes CFD-Post) Release 19.2 
+ Forte Release 19.2  
+ Polyflow (includes CFD-Post) Release 19.2   
+ TurboGrid Release 19.2  
+ ICEM CFD Release 19.2   
+ Aqwa Release 19.2   
+ Customization Files for User Programmable Features Release 19.2 
+ Mechanical Products Release 19.2
+ Icepak (includes CFD-Post) Release 19.2 
+ Remote Solve Manager Standalone Services Release 19.2   
+ Viewer Release 19.2 
+ ACIS Geometry Interface Release 19.2
+ AutoCAD Geometry Interface Release 19.2 
+ Catia, Version 4 Geometry Interface Release 19.2
+ Catia, Version 5 Geometry Interface Release 19.2
+ Catia, Version 6 Geometry Interface Release 19.2
+ Creo Elements/Direct Modeling Geometry Interface Release 19.2   
+ Creo Parametric Geometry Interface Release 19.2 
+ Inventor Geometry Interface Release 19.2
+ JTOpen Geometry Interface Release 19.2  
+ NX Geometry Interface Release 19.2  
+ Parasolid Geometry Interface  Release 19.2  
+ Solid Edge Geometry Interface Release 19.2  
+ SOLIDWORKS Geometry Interface Release 19.2  
+ ANSYS, Inc. License Manager Release 19.2
+
+
+          *****  ANSYS COMMAND LINE ARGUMENTS  *****
+  BATCH MODE REQUESTED (-b)    = NOLIST
+  INPUT FILE COPY MODE (-c)    = COPY
+  DISTRIBUTED MEMORY PARALLEL REQUESTED
+       8 PARALLEL PROCESSES REQUESTED WITH SINGLE THREAD PER PROCESS
+    TOTAL OF     8 CORES REQUESTED
+  MPI OPTION                   = INTELMPI
+  INPUT FILE NAME              = C:\Users\gachi\Desktop\Темирлан\engine-design-hw\ансис\расчет\_ProjectScratch\Scr996F\dummy.dat
+  OUTPUT FILE NAME             = C:\Users\gachi\Desktop\Темирлан\engine-design-hw\ансис\расчет\_ProjectScratch\Scr996F\solve.out
+  START-UP FILE MODE           = NOREAD
+  STOP FILE MODE               = NOREAD
+
+ RELEASE= Release 19.2         BUILD= 19.2      UP20180808   VERSION=WINDOWS x64 
+ CURRENT JOBNAME=file0  01:20:57  MAY 18, 2021 CP=      0.266
+
+
+ PARAMETER _DS_PROGRESS =     999.0000000    
+
+ /INPUT FILE= ds.dat  LINE=       0
+
+
+
+ *** NOTE ***                            CP =       0.703   TIME= 01:20:57
+ The /CONFIG,NOELDB command is not valid in a Distributed ANSYS          
+ solution.  Command is ignored.                                          
+
+ *GET  _WALLSTRT  FROM  ACTI  ITEM=TIME WALL  VALUE=  1.34916667    
+
+ TITLE= 
+ 4d56--Static Structural (A5)                                                  
+
+
+ SET PARAMETER DIMENSIONS ON  _WB_PROJECTSCRATCH_DIR
+  TYPE=STRI  DIMENSIONS=      248        1        1
+
+ PARAMETER _WB_PROJECTSCRATCH_DIR(1) = C:\Users\gachi\Desktop\Темирлан\engine-design-hw\ансис\расчет\_ProjectScratch\Scr996F\
+
+ SET PARAMETER DIMENSIONS ON  _WB_SOLVERFILES_DIR
+  TYPE=STRI  DIMENSIONS=      248        1        1
+
+ PARAMETER _WB_SOLVERFILES_DIR(1) = C:\Users\gachi\Desktop\Темирлан\engine-design-hw\ансис\расчет\4d56_files\dp0\SYS-1\MECH\
+
+ SET PARAMETER DIMENSIONS ON  _WB_USERFILES_DIR
+  TYPE=STRI  DIMENSIONS=      248        1        1
+
+ PARAMETER _WB_USERFILES_DIR(1) = C:\Users\gachi\Desktop\Темирлан\engine-design-hw\ансис\расчет\4d56_files\user_files\
+ --- Data in consistent NMM units. See Solving Units in the help system for more
+
+ MPA UNITS SPECIFIED FOR INTERNAL    
+  LENGTH      = MILLIMETERS (mm)
+  MASS        = TONNE (Mg)
+  TIME        = SECONDS (sec)
+  TEMPERATURE = CELSIUS (C)
+  TOFFSET     = 273.0
+  FORCE       = NEWTON (N)
+  HEAT        = MILLIJOULES (mJ)
+
+ INPUT  UNITS ARE ALSO SET TO MPA 
+
+ *** ANSYS - ENGINEERING ANALYSIS SYSTEM  RELEASE Release 19.2     19.2     ***
+ DISTRIBUTED ANSYS Mechanical Enterprise                       
+
+ 00000000  VERSION=WINDOWS x64   01:20:57  MAY 18, 2021 CP=      0.703
+
+ 4d56--Static Structural (A5)                                                  
+
+
+
+          ***** ANSYS ANALYSIS DEFINITION (PREP7) *****
+ *********** Nodes for the whole assembly ***********
+ *********** Nodes for all Remote Points ***********
+ *********** Elements for Body 1 "________ _____ ______" ***********
+ *********** Elements for Body 2 "______ ____" ***********
+ *********** Elements for Body 3 "________" ***********
+ *********** Elements for Body 4 "________" ***********
+ *********** Send User Defined Coordinate System(s) ***********
+ *********** Set Reference Temperature ***********
+ *********** Send Materials ***********
+ *********** Create Contact "Frictional - держалка To колено вала" ***********
+             Real Constant Set For Above Contact Is 6 & 5
+ *********** Create Contact "Frictional - держалка To колено вала" ***********
+             Real Constant Set For Above Contact Is 8 & 7
+ *********** Create Contact "Frictional - половина верха шатуна To колено вала" 
+             Real Constant Set For Above Contact Is 10 & 9
+ *********** Fixed Supports ***********
+ *********** Define Force Using Surface Effect Elements ***********
+ *********** Create Remote Point "Internal Remote Point" ***********
+ *********** Create Remote Point "Internal Remote Point 2" ***********
+ *********** Construct Remote Displacement ***********
+ *** Create a component for all remote displacements ***
+ *********** Construct Remote Mass Using Remote Attachment ***********
+ *********** Define Rotational Velocity ***********
+
+
+ ***** ROUTINE COMPLETED *****  CP =         3.578
+
+
+ --- Number of total nodes = 81197
+ --- Number of contact elements = 6027
+ --- Number of spring elements = 0
+ --- Number of bearing elements = 0
+ --- Number of solid elements = 37866
+ --- Number of condensed parts = 0
+ --- Number of total elements = 43896
+
+ *GET  _WALLBSOL  FROM  ACTI  ITEM=TIME WALL  VALUE=  1.34944444    
+ ****************************************************************************
+ *************************    SOLUTION       ********************************
+ ****************************************************************************
+
+ *****  ANSYS SOLUTION ROUTINE  *****
+
+
+ PERFORM A STATIC ANALYSIS
+  THIS WILL BE A NEW ANALYSIS
+
+ USE SPARSE MATRIX DIRECT SOLVER
+
+ CONTACT INFORMATION PRINTOUT LEVEL       1
+
+ DO NOT COMBINE ELEMENT MATRIX FILES (.emat) AFTER DISTRIBUTED PARALLEL SOLUTION
+
+ DO NOT COMBINE ELEMENT SAVE DATA FILES (.esav) AFTER DISTRIBUTED PARALLEL SOLUTION
+
+ NLDIAG: Nonlinear diagnostics CONT option is set to ON. 
+         Writing frequency : each ITERATION.
+
+ DEFINE RESTART CONTROL FOR LOADSTEP LAST
+ AT FREQUENCY OF LAST AND NUMBER FOR OVERWRITE IS    0
+
+ DELETE RESTART FILES OF ENDSTEP
+ ****************************************************
+ ******************* SOLVE FOR LS 1 OF 1 ****************
+
+ SELECT       FOR ITEM=TYPE COMPONENT=    
+  IN RANGE        11 TO         11 STEP          1
+
+         25  ELEMENTS (OF      43896  DEFINED) SELECTED BY  ESEL  COMMAND.
+
+ SELECT      ALL NODES HAVING ANY ELEMENT IN ELEMENT SET.
+
+         74 NODES (OF      81197  DEFINED) SELECTED FROM
+       25 SELECTED ELEMENTS BY NSLE COMMAND.
+
+ SPECIFIED SURFACE LOAD PRES FOR ALL SELECTED ELEMENTS  LKEY =  1   KVAL = 1
+     VALUES =   -0.90155E-14   -0.90155E-14   -0.90155E-14   -0.90155E-14
+
+ SPECIFIED SURFACE LOAD PRES FOR ALL SELECTED ELEMENTS  LKEY =  2   KVAL = 1
+     VALUES =     146.88         146.88         146.88         146.88    
+
+ SPECIFIED SURFACE LOAD PRES FOR ALL SELECTED ELEMENTS  LKEY =  3   KVAL = 1
+     VALUES =     10.271         10.271         10.271         10.271    
+
+ ALL SELECT   FOR ITEM=NODE COMPONENT=    
+  IN RANGE         1 TO      89810 STEP          1
+
+      81197  NODES (OF      81197  DEFINED) SELECTED BY NSEL  COMMAND.
+
+ ALL SELECT   FOR ITEM=ELEM COMPONENT=    
+  IN RANGE         1 TO      49305 STEP          1
+
+      43896  ELEMENTS (OF      43896  DEFINED) SELECTED BY  ESEL  COMMAND.
+
+ SPECIFIED CONSTRAINT UX   FOR SELECTED NODES        89809 TO       89809 BY           1
+ REAL=  0.00000000       IMAG=  0.00000000    
+
+ SPECIFIED CONSTRAINT UY   FOR SELECTED NODES        89809 TO       89809 BY           1
+ REAL=  0.00000000       IMAG=  0.00000000    
+
+ SPECIFIED CONSTRAINT UZ   FOR SELECTED NODES        89809 TO       89809 BY           1
+ REAL=  0.00000000       IMAG=  0.00000000    
+
+ SPECIFIED CONSTRAINT ROTX FOR SELECTED NODES        89809 TO       89809 BY           1
+ REAL=  0.00000000       IMAG=  0.00000000    
+
+ SPECIFIED CONSTRAINT ROTY FOR SELECTED NODES        89809 TO       89809 BY           1
+ REAL=  0.00000000       IMAG=  0.00000000    
+
+ SPECIFIED CONSTRAINT ROTZ FOR SELECTED NODES        89809 TO       89809 BY           1
+ REAL=  0.00000000       IMAG=  0.00000000    
+
+ SELECT      COMPONENT CM_ROTVELCITY66                 
+
+ ALSO SELECT  FOR ITEM=ELEM COMPONENT=    
+  IN RANGE     49305 TO      49305 STEP          1
+
+      21043  ELEMENTS (OF      43896  DEFINED) SELECTED BY  ESEL  COMMAND.
+
+ DELETE COMPONENT CM_ROTVELCITY66                 
+
+ DEFINITION OF COMPONENT = CM_ROTVELCITY66  ENTITY=ELEM
+
+ ALL SELECT   FOR ITEM=ELEM COMPONENT=    
+  IN RANGE         1 TO      49305 STEP          1
+
+      43896  ELEMENTS (OF      43896  DEFINED) SELECTED BY  ESEL  COMMAND.
+
+ CMOMEGA on component= cm_rotvelcity66                 
+  OMEGAX, OMEGAY, OMEGAZ=   418.88      0.0000      0.0000    
+  X1, Y1, Z1=   0.0000      0.0000      0.0000    
+
+ PRINTOUT RESUMED BY /GOP
+
+ USE AUTOMATIC TIME STEPPING THIS LOAD STEP
+
+ USE       1 SUBSTEPS INITIALLY THIS LOAD STEP FOR ALL  DEGREES OF FREEDOM
+ FOR AUTOMATIC TIME STEPPING:
+   USE     10 SUBSTEPS AS A MAXIMUM
+   USE      1 SUBSTEPS AS A MINIMUM
+
+ TIME=  1.0000    
+
+ ERASE THE CURRENT DATABASE OUTPUT CONTROL TABLE.
+
+
+ WRITE ALL  ITEMS TO THE DATABASE WITH A FREQUENCY OF NONE
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE NSOL ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE RSOL ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE STRS ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE EPEL ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE EPPL ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ NONLINEAR STABILIZATION CONTROL:
+ KEY=OFF 
+
+
+ *GET  ANSINTER_  FROM  ACTI  ITEM=INT        VALUE=  0.00000000    
+
+ *IF  ANSINTER_                         ( =   0.00000     )  NE  
+      0                                 ( =   0.00000     )  THEN    
+
+ *ENDIF
+
+ *** NOTE ***                            CP =       3.703   TIME= 01:20:58
+ The automatic domain decomposition logic has selected the MESH domain   
+ decomposition method with 8 processes per solution.                     
+
+ *****  ANSYS SOLVE    COMMAND  *****
+
+ *** WARNING ***                         CP =       3.828   TIME= 01:20:58
+ Element shape checking is currently inactive.  Issue SHPP,ON or         
+ SHPP,WARN to reactivate, if desired.                                    
+
+ *** NOTE ***                            CP =       4.453   TIME= 01:20:58
+ The model data was checked and warning messages were found.             
+  Please review output or errors file (                                  
+ C:\Users\gachi\Desktop\Темирлан\engine-design-hw\ансис\расчет\_ProjectS 
+ Scratch\Scr996F\file0.err ) for these warning messages.                 
+
+ *** SELECTION OF ELEMENT TECHNOLOGIES FOR APPLICABLE ELEMENTS ***
+      --- GIVE SUGGESTIONS AND RESET THE KEY OPTIONS ---
+
+ ELEMENT TYPE    1 IS SOLID187. IT IS NOT ASSOCIATED WITH FULLY INCOMPRESSIBLE
+ HYPERELASTIC MATERIALS. NO SUGGESTION IS AVAILABLE AND NO RESETTING IS NEEDED.
+
+ ELEMENT TYPE    2 IS SOLID187. IT IS NOT ASSOCIATED WITH FULLY INCOMPRESSIBLE
+ HYPERELASTIC MATERIALS. NO SUGGESTION IS AVAILABLE AND NO RESETTING IS NEEDED.
+
+ ELEMENT TYPE    3 IS SOLID186. KEYOPT(2)=0 IS SUGGESTED AND HAS BEEN RESET.
+  KEYOPT(1-12)=    0    0    0    0    0    0    0    0    0    0    0    0
+
+ ELEMENT TYPE    4 IS SOLID186. KEYOPT(2)=0 IS SUGGESTED AND HAS BEEN RESET.
+  KEYOPT(1-12)=    0    0    0    0    0    0    0    0    0    0    0    0
+
+
+
+ *** ANSYS - ENGINEERING ANALYSIS SYSTEM  RELEASE Release 19.2     19.2     ***
+ DISTRIBUTED ANSYS Mechanical Enterprise                       
+
+ 00000000  VERSION=WINDOWS x64   01:20:58  MAY 18, 2021 CP=      4.578
+
+ 4d56--Static Structural (A5)                                                  
+
+
+
+                       S O L U T I O N   O P T I O N S
+
+   PROBLEM DIMENSIONALITY. . . . . . . . . . . . .3-D                  
+   DEGREES OF FREEDOM. . . . . . UX   UY   UZ   ROTX ROTY ROTZ
+   ANALYSIS TYPE . . . . . . . . . . . . . . . . .STATIC (STEADY-STATE)
+   OFFSET TEMPERATURE FROM ABSOLUTE ZERO . . . . .  273.15    
+   EQUATION SOLVER OPTION. . . . . . . . . . . . .SPARSE             
+   NEWTON-RAPHSON OPTION . . . . . . . . . . . . .PROGRAM CHOSEN   
+   GLOBALLY ASSEMBLED MATRIX . . . . . . . . . . .SYMMETRIC  
+
+ *** WARNING ***                         CP =       4.953   TIME= 01:20:58
+ Material number 11 (used by element 48544) should normally have at      
+ least one MP or one TB type command associated with it.  Output of      
+ energy by material may not be available.                                
+
+ *** NOTE ***                            CP =       5.078   TIME= 01:20:58
+ The step data was checked and warning messages were found.              
+  Please review output or errors file (                                  
+ C:\Users\gachi\Desktop\Темирлан\engine-design-hw\ансис\расчет\_ProjectS 
+ Scratch\Scr996F\file0.err ) for these warning messages.                 
+
+ *** NOTE ***                            CP =       5.078   TIME= 01:20:58
+ This nonlinear analysis defaults to using the full Newton-Raphson       
+ solution procedure.  This can be modified using the NROPT command.      
+
+ *** NOTE ***                            CP =       5.344   TIME= 01:20:58
+ Internal nodes from 89811 to 94362 are created.                         
+ 2 internal nodes are used for handling degrees of freedom on pilot      
+ nodes of rigid target surfaces.                                         
+ 4550 internal nodes are used for contact elements with Lagrange         
+ multiplier method.                                                      
+
+ *** NOTE ***                            CP =       5.422   TIME= 01:20:58
+ Internal nodes from 89811 to 94362 are created.                         
+ 2 internal nodes are used for handling degrees of freedom on pilot      
+ nodes of rigid target surfaces.                                         
+ 4550 internal nodes are used for contact elements with Lagrange         
+ multiplier method.                                                      
+ *WARNING*: Some MPC/Lagrange based elements (e.g.47552) in real         
+ constant set 10 overlap with other MPC/Lagrange based elements          
+ (e.g.48808) in real constant set 14 which can cause overconstraint.     
+
+ *** NOTE ***                            CP =       6.062   TIME= 01:20:58
+ Symmetric Deformable- deformable contact pair identified by real        
+ constant set 5 and contact element type 5 has been set up.  The         
+ companion pair has real constant set ID 6.  Both pairs should have the  
+ same behavior.                                                          
+ ANSYS will deactivate the current pair and keep its companion pair,     
+ resulting in asymmetric contact.                                        
+ Small sliding logic is assumed
+ Contact algorithm: Lagrange multiplier method on normal &
+   penalty on tangential direction
+ Contact detection at: nodal point (normal to target surface)
+ Default penetration tolerance FTOLN will be used.
+ Default Max. tensile stress TNOP will be used.
+ Max. initial friction coefficient MU         0.15000    
+ Default tangent stiffness factor FKT          1.0000    
+ Default elastic slip factor SLTOL            0.10000E-01
+ The resulting elastic slip tolerance         0.48342E-01
+ Default Max. friction stress TAUMAX          0.10000E+21
+ Average contact surface length                4.8342    
+ Average contact pair depth                    4.5594    
+ Default pinball region factor PINB            1.0000    
+ The resulting pinball region                  4.5594    
+ Default target edge extension factor TOLS     10.000    
+ Auto contact offset used to close gap         0.0000    
+ Initial penetration is excluded.
+
+ *** NOTE ***                            CP =       6.062   TIME= 01:20:58
+ Max.  Initial penetration 3.59623487E-15 was detected between contact   
+ element 43672 and target element 44488.                                 
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       6.062   TIME= 01:20:58
+ Symmetric Deformable- deformable contact pair identified by real        
+ constant set 6 and contact element type 5 has been set up.  The         
+ companion pair has real constant set ID 5.  Both pairs should have the  
+ same behavior.                                                          
+ ANSYS will keep the current pair and deactivate its companion pair,     
+ resulting in asymmetric contact.                                        
+ Small sliding logic is assumed
+ Contact algorithm: Lagrange multiplier method on normal &
+   penalty on tangential direction
+ Contact detection at: nodal point (normal to target surface)
+ Default penetration tolerance FTOLN will be used.
+ Default Max. tensile stress TNOP will be used.
+ Max. initial friction coefficient MU         0.15000    
+ Default tangent stiffness factor FKT          1.0000    
+ Default elastic slip factor SLTOL            0.10000E-01
+ The resulting elastic slip tolerance         0.55260E-01
+ Default Max. friction stress TAUMAX          0.10000E+21
+ Average contact surface length                5.5260    
+ Average contact pair depth                    4.4364    
+ Default pinball region factor PINB            1.0000    
+ The resulting pinball region                  4.4364    
+ Default target edge extension factor TOLS     10.000    
+ Auto contact offset used to close gap         0.0000    
+ Initial penetration is excluded.
+
+ *** NOTE ***                            CP =       6.062   TIME= 01:20:58
+ Max.  Initial penetration 2.751210634E-05 was detected between contact  
+ element 44132 and target element 43381.                                 
+ You may move entire target surface by : x= -3.044505859E-20, y=         
+ -1.535732194E-05, z= -2.282692836E-05,to reduce initial penetration.    
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       6.062   TIME= 01:20:58
+ Symmetric Deformable- deformable contact pair identified by real        
+ constant set 7 and contact element type 7 has been set up.  The         
+ companion pair has real constant set ID 8.  Both pairs should have the  
+ same behavior.                                                          
+ ANSYS will deactivate the current pair and keep its companion pair,     
+ resulting in asymmetric contact.                                        
+ Small sliding logic is assumed
+ Contact algorithm: Lagrange multiplier method on normal &
+   penalty on tangential direction
+ Contact detection at: nodal point (normal to target surface)
+ Default penetration tolerance FTOLN will be used.
+ Default Max. tensile stress TNOP will be used.
+ Max. initial friction coefficient MU         0.15000    
+ Default tangent stiffness factor FKT          1.0000    
+ Default elastic slip factor SLTOL            0.10000E-01
+ The resulting elastic slip tolerance         0.48342E-01
+ Default Max. friction stress TAUMAX          0.10000E+21
+ Average contact surface length                4.8342    
+ Average contact pair depth                    4.5594    
+ Default pinball region factor PINB            1.0000    
+ The resulting pinball region                  4.5594    
+ Default target edge extension factor TOLS     10.000    
+ Auto contact offset used to close gap         0.0000    
+ Initial penetration is excluded.
+
+ *** NOTE ***                            CP =       6.062   TIME= 01:20:58
+ Max.  Initial penetration 8.990952033E-04 was detected between contact  
+ element 45232 and target element 45920.                                 
+ You may move entire target surface by : x= -5.979236019E-07, y=         
+ -4.85134526E-04, z= 7.569784136E-04,to reduce initial penetration.      
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       6.062   TIME= 01:20:58
+ Symmetric Deformable- deformable contact pair identified by real        
+ constant set 8 and contact element type 7 has been set up.  The         
+ companion pair has real constant set ID 7.  Both pairs should have the  
+ same behavior.                                                          
+ ANSYS will keep the current pair and deactivate its companion pair,     
+ resulting in asymmetric contact.                                        
+ Small sliding logic is assumed
+ Contact algorithm: Lagrange multiplier method on normal &
+   penalty on tangential direction
+ Contact detection at: nodal point (normal to target surface)
+ Default penetration tolerance FTOLN will be used.
+ Default Max. tensile stress TNOP will be used.
+ Max. initial friction coefficient MU         0.15000    
+ Default tangent stiffness factor FKT          1.0000    
+ Default elastic slip factor SLTOL            0.10000E-01
+ The resulting elastic slip tolerance         0.51968E-01
+ Default Max. friction stress TAUMAX          0.10000E+21
+ Average contact surface length                5.1968    
+ Average contact pair depth                    4.2014    
+ Default pinball region factor PINB            1.0000    
+ The resulting pinball region                  4.2014    
+ Default target edge extension factor TOLS     10.000    
+ Auto contact offset used to close gap         0.0000    
+ Initial penetration is excluded.
+
+ *** NOTE ***                            CP =       6.062   TIME= 01:20:58
+ Max.  Initial penetration 1.474512018E-03 was detected between contact  
+ element 45351 and target element 45058.                                 
+ You may move entire target surface by : x= 6.147954712E-19, y=          
+ 6.294847738E-04, z= 1.333392144E-03,to reduce initial penetration.      
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       6.062   TIME= 01:20:58
+ Symmetric Deformable- deformable contact pair identified by real        
+ constant set 9 and contact element type 9 has been set up.  The         
+ companion pair has real constant set ID 10.  Both pairs should have     
+ the same behavior.                                                      
+ ANSYS will keep the current pair and deactivate its companion pair,     
+ resulting in asymmetric contact.                                        
+ Small sliding logic is assumed
+ Contact algorithm: Lagrange multiplier method on normal &
+   penalty on tangential direction
+ Contact detection at: nodal point (normal to target surface)
+ Default penetration tolerance FTOLN will be used.
+ Default Max. tensile stress TNOP will be used.
+ Max. initial friction coefficient MU         0.15000    
+ Default tangent stiffness factor FKT          1.0000    
+ Default elastic slip factor SLTOL            0.10000E-01
+ The resulting elastic slip tolerance         0.47476E-01
+ Default Max. friction stress TAUMAX          0.10000E+21
+ Average contact surface length                4.7476    
+ Average contact pair depth                    3.1285    
+ Default pinball region factor PINB            1.0000    
+ The resulting pinball region                  3.1285    
+ Default target edge extension factor TOLS     10.000    
+ Auto contact offset used to close gap        0.50489    
+ Initial penetration is excluded.
+
+ *** NOTE ***                            CP =       6.062   TIME= 01:20:58
+ Min.  Initial gap 0.499894956 was detected between contact element      
+ 47446 and target element 48496.                                         
+ The gap is closed due to initial settings.                              
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       6.062   TIME= 01:20:58
+ Symmetric Deformable- deformable contact pair identified by real        
+ constant set 10 and contact element type 9 has been set up.  The        
+ companion pair has real constant set ID 9.  Both pairs should have the  
+ same behavior.                                                          
+ ANSYS will deactivate the current pair and keep its companion pair,     
+ resulting in asymmetric contact.                                        
+ Small sliding logic is assumed
+ Contact algorithm: Lagrange multiplier method on normal &
+   penalty on tangential direction
+ Contact detection at: nodal point (normal to target surface)
+ Default penetration tolerance FTOLN will be used.
+ Default Max. tensile stress TNOP will be used.
+ Max. initial friction coefficient MU         0.15000    
+ Default tangent stiffness factor FKT          1.0000    
+ Default elastic slip factor SLTOL            0.10000E-01
+ The resulting elastic slip tolerance         0.50110E-01
+ Default Max. friction stress TAUMAX          0.10000E+21
+ Average contact surface length                5.0110    
+ Average contact pair depth                    3.9400    
+ Default pinball region factor PINB            1.0000    
+ The resulting pinball region                  3.9400    
+ Default target edge extension factor TOLS     10.000    
+ Auto contact offset used to close gap        0.50472    
+ Initial penetration is excluded.
+
+ *** NOTE ***                            CP =       6.062   TIME= 01:20:58
+ Min.  Initial gap 0.49972305 was detected between contact element 47939 
+ and target element 46918.                                               
+ The gap is closed due to initial settings.                              
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       6.062   TIME= 01:20:58
+ Force-distributed-surface identified by real constant set 12 and        
+ contact element type 12 has been set up.  The pilot node 89809 is used  
+ to apply the force.  Internal MPC will be built.                        
+ The used degrees of freedom set is  UX   UY   UZ   ROTX ROTY ROTZ
+ Please verify constraints (including rotational degrees of freedom)
+  on the pilot node by yourself.
+ ****************************************
+  
+
+ *** NOTE ***                            CP =       6.062   TIME= 01:20:58
+ Force-distributed-surface identified by real constant set 14 and        
+ contact element type 14 has been set up.  The pilot node 89810 is used  
+ to apply the force which connects to other element 49305.  Internal     
+ MPC will be built.                                                      
+ The used degrees of freedom set is  UX   UY   UZ  
+ *WARNING*: Certain contact elements (for example 49303&48047) overlap   
+ each other.                                                             
+ ****************************************
+  
+
+ *** WARNING ***                         CP =       6.062   TIME= 01:20:58
+ Overconstraint may occur for Lagrange multiplier or MPC based contact   
+ algorithm.                                                              
+ The reasons for possible overconstraint are:                            
+
+ *** WARNING ***                         CP =       6.062   TIME= 01:20:58
+ Certain contact elements (for example 49303 & 48047) overlap with       
+ other.                                                                  
+ ****************************************
+  
+  
+
+ *** NOTE ***                            CP =       6.141   TIME= 01:20:59
+ Internal nodes from 89811 to 94362 are created.                         
+ 2 internal nodes are used for handling degrees of freedom on pilot      
+ nodes of rigid target surfaces.                                         
+ 4550 internal nodes are used for contact elements with Lagrange         
+ multiplier method.                                                      
+
+  
+  
+     D I S T R I B U T E D   D O M A I N   D E C O M P O S E R
+  
+  ...Number of elements: 43896
+  ...Number of nodes:    85749
+  ...Decompose to 8 CPU domains
+  ...Element load balance ratio =     1.232
+
+
+                      L O A D   S T E P   O P T I O N S
+
+   LOAD STEP NUMBER. . . . . . . . . . . . . . . .     1
+   TIME AT END OF THE LOAD STEP. . . . . . . . . .  1.0000    
+   AUTOMATIC TIME STEPPING . . . . . . . . . . . .    ON
+      INITIAL NUMBER OF SUBSTEPS . . . . . . . . .     1
+      MAXIMUM NUMBER OF SUBSTEPS . . . . . . . . .    10
+      MINIMUM NUMBER OF SUBSTEPS . . . . . . . . .     1
+   MAXIMUM NUMBER OF EQUILIBRIUM ITERATIONS. . . .    15
+   STEP CHANGE BOUNDARY CONDITIONS . . . . . . . .    NO
+   TERMINATE ANALYSIS IF NOT CONVERGED . . . . . .YES (EXIT)  
+   CONVERGENCE CONTROLS. . . . . . . . . . . . . .USE DEFAULTS
+   PRINT OUTPUT CONTROLS . . . . . . . . . . . . .NO PRINTOUT
+   DATABASE OUTPUT CONTROLS
+      ITEM     FREQUENCY   COMPONENT
+       ALL       NONE               
+      NSOL        ALL               
+      RSOL        ALL               
+      STRS        ALL               
+      EPEL        ALL               
+      EPPL        ALL               
+
+
+ SOLUTION MONITORING INFO IS WRITTEN TO FILE= file.mntr                                                                                                                                                                                                                                                           
+ MAXIMUM NUMBER OF EQUILIBRIUM ITERATIONS HAS BEEN MODIFIED              
+  TO BE, NEQIT = 26, BY SOLUTION CONTROL LOGIC.                          
+
+
+
+                         ***********  PRECISE MASS SUMMARY  ***********
+
+   TOTAL RIGID BODY MASS MATRIX ABOUT ORIGIN
+               Translational mass               |   Coupled translational/rotational mass
+        0.12306E-01    0.0000        0.0000     |     0.0000       0.70991E-03  -0.72789E-01
+         0.0000       0.12306E-01    0.0000     |   -0.70991E-03    0.0000       0.83020    
+         0.0000        0.0000       0.12306E-01 |    0.72789E-01  -0.83020        0.0000    
+     ------------------------------------------ | ------------------------------------------
+                                                |         Rotational mass (inertia)
+                                                |     37.400       -4.8884      -0.47122E-01
+                                                |    -4.8884        90.040      -0.62261E-01
+                                                |   -0.47122E-01  -0.62261E-01    100.46    
+
+   TOTAL MASS = 0.12306E-01
+     The mass principal axes coincide with the global Cartesian axes
+
+   CENTER OF MASS (X,Y,Z)=    67.464        5.9150       0.57688E-01
+
+   TOTAL INERTIA ABOUT CENTER OF MASS
+         36.969       0.22200E-01   0.77053E-03
+        0.22200E-01    34.032      -0.58062E-01
+        0.77053E-03  -0.58062E-01    44.022    
+     The inertia principal axes coincide with the global Cartesian axes
+
+
+  *** MASS SUMMARY BY ELEMENT TYPE ***
+
+  TYPE      MASS
+     1  0.913565E-03
+     2  0.680493E-02
+     3  0.214370E-02
+     4  0.214370E-02
+    16  0.300000E-03
+
+ Range of element maximum matrix coefficients in global coordinates
+ Maximum = 18130872 at element 11789.                                    
+ Minimum = 178371.142 at element 173.                                    
+
+   *** ELEMENT MATRIX FORMULATION TIMES
+     TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
+
+        1     12072  SOLID187      1.438   0.000119
+        2     21042  SOLID187      2.672   0.000127
+        3      2376  SOLID186      0.625   0.000263
+        4      2376  SOLID186      0.609   0.000256
+        5       770  CONTA174      0.344   0.000446
+        6       770  TARGE170      0.016   0.000020
+        7       840  CONTA174      0.359   0.000428
+        8       840  TARGE170      0.016   0.000019
+        9      1024  CONTA174      0.281   0.000275
+       10      1024  TARGE170      0.016   0.000015
+       11        25  SURF154       0.016   0.000625
+       12       238  CONTA174      0.016   0.000066
+       13         1  TARGE170      0.000   0.000000
+       14       496  CONTA174      0.000   0.000000
+       15         1  TARGE170      0.000   0.000000
+       16         1  MASS21        0.000   0.000000
+ Time at end of element matrix formulation CP = 9.03125.                 
+
+ ALL CURRENT ANSYS DATA WRITTEN TO FILE NAME= file.rdb
+  FOR POSSIBLE RESUME FROM THIS POINT
+     THE CONTACT STATUS HAS CHANGED AT     1  CONTACT POINTS
+     FORCE CONVERGENCE VALUE  =  0.1135E+05  CRITERION=   57.88    
+
+ DISTRIBUTED SPARSE MATRIX DIRECT SOLVER.
+  Number of equations =      239215,    Maximum wavefront =    630
+
+ *** NOTE ***                            CP =      10.125   TIME= 01:21:03
+ The initial memory allocation (-m) has been exceeded.                   
+  Supplemental memory allocations are being used.                        
+
+  Local memory allocated for solver              =    406.936 MB
+  Local memory required for in-core solution     =    278.939 MB
+  Local memory required for out-of-core solution =     95.201 MB
+
+  Total memory allocated for solver              =   3127.908 MB
+  Total memory required for in-core solution     =   2183.136 MB
+  Total memory required for out-of-core solution =    951.444 MB
+
+ *** NOTE ***                            CP =      11.016   TIME= 01:21:03
+ The Distributed Sparse Matrix Solver is currently running in the        
+ in-core memory mode.  This memory mode uses the most amount of memory   
+ in order to avoid using the hard drive as much as possible, which most  
+ often results in the fastest solution time.  This mode is recommended   
+ if enough physical memory is present to accommodate all of the solver   
+ data.                                                                   
+
+ *** WARNING ***                         CP =      11.016   TIME= 01:21:03
+ Pivoting has been activated for the Distributed Sparse Matrix Solver .  
+ The memory required may greatly exceed the predicted amount.  In that   
+ event, use the DSPOPTION command to change the memory mode and/or       
+ memory size used by the Distributed Sparse Matrix Solver.               
+ curEqn=  32449  totEqn=  32449 Job CP sec=     16.156
+      Factor Done= 100% Factor Wall sec=      4.564 rate=    6811.4 Mflops
+ Distributed sparse solver maximum pivot= 9.228684136E+10 at node 64333  
+ UY.                                                                     
+ Distributed sparse solver minimum pivot= 80309.4786 at node 58467 UX.   
+ Distributed sparse solver minimum pivot in absolute value= 80309.4786   
+ at node 58467 UX.                                                       
+     DISP CONVERGENCE VALUE   =  0.3901E-01  CRITERION=  0.1990E-02
+    EQUIL ITER   1 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  0.3901E-01
+     DISP CONVERGENCE VALUE   =  0.3901E-01  CRITERION=  0.2031E-02
+     LINE SEARCH PARAMETER =   1.000     SCALED MAX DOF INC =  0.3901E-01
+     THE CONTACT STATUS HAS CHANGED AT  1073  CONTACT POINTS
+     FORCE CONVERGENCE VALUE  =   4612.      CRITERION=   365.7    
+    EQUIL ITER   2 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  0.1087E-01
+
+ *** WARNING ***                         CP =      25.234   TIME= 01:21:18
+ The rotational degree of freedom of pilot node 89810 is not well        
+ constrained which can cause rigid body motion.                          
+     DISP CONVERGENCE VALUE   =  0.1087E-01  CRITERION=  0.2405E-02
+     LINE SEARCH PARAMETER =   1.000     SCALED MAX DOF INC =  0.1087E-01
+     THE CONTACT STATUS HAS CHANGED AT   164  CONTACT POINTS
+     FORCE CONVERGENCE VALUE  =   6853.      CRITERION=   356.9    
+    EQUIL ITER   3 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  0.1936E-01
+     DISP CONVERGENCE VALUE   =  0.1936E-01  CRITERION=  0.2951E-02
+     LINE SEARCH PARAMETER =   1.000     SCALED MAX DOF INC =  0.1936E-01
+     THE CONTACT STATUS HAS CHANGED AT   192  CONTACT POINTS
+     FORCE CONVERGENCE VALUE  =   4886.      CRITERION=   378.5    
+    EQUIL ITER   4 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  0.4798E-02
+     DISP CONVERGENCE VALUE   =  0.4798E-02  CRITERION=  0.3043E-02
+     LINE SEARCH PARAMETER =   1.000     SCALED MAX DOF INC =  0.4798E-02
+     THE CONTACT STATUS HAS CHANGED AT    80  CONTACT POINTS
+     FORCE CONVERGENCE VALUE  =   3031.      CRITERION=   393.2    
+    EQUIL ITER   5 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  0.2223E-02
+     DISP CONVERGENCE VALUE   =  0.2223E-02  CRITERION=  0.3123E-02 <<< CONVERGED
+     LINE SEARCH PARAMETER =   1.000     SCALED MAX DOF INC =  0.2223E-02
+     THE CONTACT STATUS HAS CHANGED AT    89  CONTACT POINTS
+     FORCE CONVERGENCE VALUE  =   2224.      CRITERION=   405.5    
+    EQUIL ITER   6 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  0.1313E-02
+     DISP CONVERGENCE VALUE   =  0.1313E-02  CRITERION=  0.3195E-02 <<< CONVERGED
+     LINE SEARCH PARAMETER =   1.000     SCALED MAX DOF INC =  0.1313E-02
+     THE CONTACT STATUS HAS CHANGED AT    86  CONTACT POINTS
+     FORCE CONVERGENCE VALUE  =   1280.      CRITERION=   414.9    
+    EQUIL ITER   7 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC= -0.1176E-02
+     DISP CONVERGENCE VALUE   =  0.1176E-02  CRITERION=  0.3265E-02 <<< CONVERGED
+     LINE SEARCH PARAMETER =   1.000     SCALED MAX DOF INC = -0.1176E-02
+     THE CONTACT STATUS HAS CHANGED AT   514  CONTACT POINTS
+     FORCE CONVERGENCE VALUE  =   524.9      CRITERION=   423.8    
+    EQUIL ITER   8 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC= -0.9140E-03
+     DISP CONVERGENCE VALUE   =  0.4015E-03  CRITERION=  0.3332E-02 <<< CONVERGED
+     LINE SEARCH PARAMETER =  0.4393     SCALED MAX DOF INC = -0.4015E-03
+     THE CONTACT STATUS HAS CHANGED AT    74  CONTACT POINTS
+     FORCE CONVERGENCE VALUE  =   326.8      CRITERION=   432.9     <<< CONVERGED
+    EQUIL ITER   9 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC= -0.5463E-03
+     DISP CONVERGENCE VALUE   =  0.2988E-03  CRITERION=  0.3402E-02 <<< CONVERGED
+     LINE SEARCH PARAMETER =  0.5469     SCALED MAX DOF INC = -0.2988E-03
+     THE CONTACT STATUS HAS CHANGED AT    94  CONTACT POINTS
+     FORCE CONVERGENCE VALUE  =   193.6      CRITERION=   883.7     <<< CONVERGED
+    EQUIL ITER  10 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC= -0.4276E-03
+     DISP CONVERGENCE VALUE   =  0.4276E-03  CRITERION=  0.3475E-02 <<< CONVERGED
+     LINE SEARCH PARAMETER =   1.000     SCALED MAX DOF INC = -0.4276E-03
+     THE CONTACT STATUS HAS CHANGED AT   105  CONTACT POINTS
+     FORCE CONVERGENCE VALUE  =   196.3      CRITERION=   901.4     <<< CONVERGED
+    EQUIL ITER  11 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC= -0.4327E-03
+     DISP CONVERGENCE VALUE   =  0.4327E-03  CRITERION=  0.3548E-02 <<< CONVERGED
+     LINE SEARCH PARAMETER =   1.000     SCALED MAX DOF INC = -0.4327E-03
+     THE CONTACT STATUS HAS CHANGED AT   159  CONTACT POINTS
+     FORCE CONVERGENCE VALUE  =   226.1      CRITERION=   919.5     <<< CONVERGED
+    EQUIL ITER  12 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC= -0.2983E-03
+     DISP CONVERGENCE VALUE   =  0.2983E-03  CRITERION=  0.3621E-02 <<< CONVERGED
+     LINE SEARCH PARAMETER =   1.000     SCALED MAX DOF INC = -0.2983E-03
+     THE CONTACT STATUS HAS CHANGED AT   168  CONTACT POINTS
+     FORCE CONVERGENCE VALUE  =   231.9      CRITERION=   938.5     <<< CONVERGED
+    EQUIL ITER  13 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC= -0.2581E-03
+     DISP CONVERGENCE VALUE   =  0.2581E-03  CRITERION=  0.3695E-02 <<< CONVERGED
+     LINE SEARCH PARAMETER =   1.000     SCALED MAX DOF INC = -0.2581E-03
+     THE CONTACT STATUS HAS CHANGED AT   136  CONTACT POINTS
+     FORCE CONVERGENCE VALUE  =   126.9      CRITERION=   957.7     <<< CONVERGED
+    EQUIL ITER  14 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC= -0.2297E-03
+     DISP CONVERGENCE VALUE   =  0.2297E-03  CRITERION=  0.3772E-02 <<< CONVERGED
+     LINE SEARCH PARAMETER =   1.000     SCALED MAX DOF INC = -0.2297E-03
+     THE CONTACT STATUS HAS CHANGED AT    89  CONTACT POINTS
+     FORCE CONVERGENCE VALUE  =   102.5      CRITERION=   977.2     <<< CONVERGED
+    EQUIL ITER  15 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC= -0.1290E-03
+     DISP CONVERGENCE VALUE   =  0.1290E-03  CRITERION=  0.3849E-02 <<< CONVERGED
+     LINE SEARCH PARAMETER =   1.000     SCALED MAX DOF INC = -0.1290E-03
+     THE CONTACT STATUS HAS CHANGED AT    40  CONTACT POINTS
+     FORCE CONVERGENCE VALUE  =   38.61      CRITERION=   997.1     <<< CONVERGED
+    EQUIL ITER  16 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC= -0.5906E-04
+     DISP CONVERGENCE VALUE   =  0.5906E-04  CRITERION=  0.3928E-02 <<< CONVERGED
+     LINE SEARCH PARAMETER =   1.000     SCALED MAX DOF INC = -0.5906E-04
+     THE CONTACT STATUS HAS CHANGED AT    10  CONTACT POINTS
+     FORCE CONVERGENCE VALUE  =   55.43      CRITERION=   1017.     <<< CONVERGED
+    EQUIL ITER  17 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  0.5381E-04
+     DISP CONVERGENCE VALUE   =  0.9638E-05  CRITERION=  0.4008E-02 <<< CONVERGED
+     LINE SEARCH PARAMETER =  0.1791     SCALED MAX DOF INC =  0.9638E-05
+     THE CONTACT STATUS HAS CHANGED AT     4  CONTACT POINTS
+     FORCE CONVERGENCE VALUE  =   46.20      CRITERION=   1038.     <<< CONVERGED
+    EQUIL ITER  18 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  0.6536E-04
+     DISP CONVERGENCE VALUE   =  0.6536E-04  CRITERION=  0.4090E-02 <<< CONVERGED
+     LINE SEARCH PARAMETER =   1.000     SCALED MAX DOF INC =  0.6536E-04
+     THE CONTACT STATUS HAS CHANGED AT     4  CONTACT POINTS
+     FORCE CONVERGENCE VALUE  =   83.20      CRITERION=   1059.     <<< CONVERGED
+    EQUIL ITER  19 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  0.1264E-03
+     DISP CONVERGENCE VALUE   =  0.1264E-03  CRITERION=  0.4173E-02 <<< CONVERGED
+     LINE SEARCH PARAMETER =   1.000     SCALED MAX DOF INC =  0.1264E-03
+     THE CONTACT STATUS HAS CHANGED AT     3  CONTACT POINTS
+    >>> SOLUTION CONVERGED AFTER EQUILIBRIUM ITERATION  19
+
+   *** ELEMENT RESULT CALCULATION TIMES
+     TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
+
+        1     12072  SOLID187      1.078   0.000089
+        2     21042  SOLID187      1.828   0.000087
+        3      2376  SOLID186      0.312   0.000132
+        4      2376  SOLID186      0.375   0.000158
+        5       770  CONTA174      0.094   0.000122
+        7       840  CONTA174      0.047   0.000056
+        9      1024  CONTA174      0.109   0.000107
+       11        25  SURF154       0.000   0.000000
+       12       238  CONTA174      0.000   0.000000
+       14       496  CONTA174      0.000   0.000000
+       16         1  MASS21        0.000   0.000000
+
+   *** NODAL LOAD CALCULATION TIMES
+     TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
+
+        1     12072  SOLID187      0.016   0.000001
+        2     21042  SOLID187      0.031   0.000001
+        3      2376  SOLID186      0.016   0.000007
+        4      2376  SOLID186      0.000   0.000000
+        5       770  CONTA174      0.000   0.000000
+        7       840  CONTA174      0.000   0.000000
+        9      1024  CONTA174      0.000   0.000000
+       11        25  SURF154       0.000   0.000000
+       12       238  CONTA174      0.000   0.000000
+       14       496  CONTA174      0.000   0.000000
+       16         1  MASS21        0.000   0.000000
+ *** LOAD STEP     1   SUBSTEP     1  COMPLETED.    CUM ITER =     19
+ *** TIME =   1.00000         TIME INC =   1.00000    
+
+
+ *** ANSYS BINARY FILE STATISTICS
+  BUFFER SIZE USED= 16384
+        0.812 MB WRITTEN ON ELEMENT MATRIX FILE: file0.emat
+       17.875 MB WRITTEN ON ELEMENT SAVED DATA FILE: file0.esav
+       27.250 MB WRITTEN ON ASSEMBLED MATRIX FILE: file0.full
+        5.062 MB WRITTEN ON RESULTS FILE: file0.rst
+ *************** Write FE CONNECTORS *********
+
+ WRITE OUT CONSTRAINT EQUATIONS TO FILE= file.ce                                                                                                                                                                                                                                                             
+ ****************************************************
+ *************** FINISHED SOLVE FOR LS 1 *************
+
+ *GET  _WALLASOL  FROM  ACTI  ITEM=TIME WALL  VALUE=  1.39972222    
+
+ PRINTOUT RESUMED BY /GOP
+
+ FINISH SOLUTION PROCESSING
+
+
+ ***** ROUTINE COMPLETED *****  CP =       186.156
+
+
+
+ *** ANSYS - ENGINEERING ANALYSIS SYSTEM  RELEASE Release 19.2     19.2     ***
+ DISTRIBUTED ANSYS Mechanical Enterprise                       
+
+ 00000000  VERSION=WINDOWS x64   01:23:59  MAY 18, 2021 CP=    186.172
+
+ 4d56--Static Structural (A5)                                                  
+
+
+
+          ***** ANSYS RESULTS INTERPRETATION (POST1) *****
+
+ *** NOTE ***                            CP =     186.172   TIME= 01:23:59
+ Reading results into the database (SET command) will update the current 
+ displacement and force boundary conditions in the database with the     
+ values from the results file for that load set.  Note that any          
+ subsequent solutions will use these values unless action is taken to    
+ either SAVE the current values or not overwrite them (/EXIT,NOSAVE).    
+
+ Set Encoding of XML File to:ISO-8859-1
+
+ Set Output of XML File to:
+     PARM,     ,     ,     ,     ,     ,     ,     ,     ,     ,     ,     ,
+         ,     ,     ,     ,     ,     ,     ,
+
+ DATABASE WRITTEN ON FILE  parm.xml                                                                                                                                                                                                                                                            
+
+ EXIT THE ANSYS POST1 DATABASE PROCESSOR
+
+
+ ***** ROUTINE COMPLETED *****  CP =       186.172
+
+
+
+ PRINTOUT RESUMED BY /GOP
+
+ *GET  _WALLDONE  FROM  ACTI  ITEM=TIME WALL  VALUE=  1.39972222    
+
+ PARAMETER _PREPTIME =     1.000000000    
+
+ PARAMETER _SOLVTIME =     181.0000000    
+
+ PARAMETER _POSTTIME =     0.000000000    
+
+ PARAMETER _TOTALTIM =     182.0000000    
+
+ EXIT ANSYS WITHOUT SAVING DATABASE
+
+
+ NUMBER OF WARNING MESSAGES ENCOUNTERED=          6
+ NUMBER OF ERROR   MESSAGES ENCOUNTERED=          0
+
++--------- D I S T R I B U T E D   A N S Y S   S T A T I S T I C S ------------+
+
+Release: Release 19.2       Build: 19.2       Update: UP20180808   Platform: WINDOWS x64 
+Date Run: 05/18/2021   Time: 01:24     Process ID: 9752
+Operating System: Windows 8  (Build: 9200)
+
+Processor Model:        Intel(R) Xeon(R) CPU E5-2689 0 @ 2.60GHz
+
+Compiler: Intel(R) FORTRAN Compiler Version 17.0.4  (Build: 20170411)
+          Intel(R) C/C++ Compiler Version 17.0.4  (Build: 20170411)
+          Intel(R) Math Kernel Library Version 2017.0.3 Product Build 20170413
+
+Number of machines requested            :    1
+Total number of cores available         :   16
+Number of physical cores available      :    8
+Number of processes requested           :    8
+Number of threads per process requested :    1
+Total number of cores requested         :    8 (Distributed Memory Parallel)               
+MPI Type: INTELMPI
+MPI Version: Intel(R) MPI Library 2017 Update 3 for Windows* OS
+
+
+GPU Acceleration: Not Requested
+
+Job Name: file0
+Input File: dummy.dat
+
+  Core                Machine Name   Working Directory
+ -----------------------------------------------------
+     0             DESKTOP-MHGJIJ6   C:\Users\gachi\Desktop\Темирлан\engine-design-hw\ансис\расчет\_ProjectScratch\Scr996F
+     1             DESKTOP-MHGJIJ6   C:\Users\gachi\Desktop\Темирлан\engine-design-hw\ансис\расчет\_ProjectScratch\Scr996F
+     2             DESKTOP-MHGJIJ6   C:\Users\gachi\Desktop\Темирлан\engine-design-hw\ансис\расчет\_ProjectScratch\Scr996F
+     3             DESKTOP-MHGJIJ6   C:\Users\gachi\Desktop\Темирлан\engine-design-hw\ансис\расчет\_ProjectScratch\Scr996F
+     4             DESKTOP-MHGJIJ6   C:\Users\gachi\Desktop\Темирлан\engine-design-hw\ансис\расчет\_ProjectScratch\Scr996F
+     5             DESKTOP-MHGJIJ6   C:\Users\gachi\Desktop\Темирлан\engine-design-hw\ансис\расчет\_ProjectScratch\Scr996F
+     6             DESKTOP-MHGJIJ6   C:\Users\gachi\Desktop\Темирлан\engine-design-hw\ансис\расчет\_ProjectScratch\Scr996F
+     7             DESKTOP-MHGJIJ6   C:\Users\gachi\Desktop\Темирлан\engine-design-hw\ансис\расчет\_ProjectScratch\Scr996F
+ 
+Latency time from master to core     1 =    2.265 microseconds
+Latency time from master to core     2 =    2.174 microseconds
+Latency time from master to core     3 =    2.561 microseconds
+Latency time from master to core     4 =    2.094 microseconds
+Latency time from master to core     5 =    2.288 microseconds
+Latency time from master to core     6 =    2.170 microseconds
+Latency time from master to core     7 =    2.287 microseconds
+ 
+Communication speed from master to core     1 =  4109.61 MB/sec
+Communication speed from master to core     2 =  4315.79 MB/sec
+Communication speed from master to core     3 =  4117.93 MB/sec
+Communication speed from master to core     4 =  4690.68 MB/sec
+Communication speed from master to core     5 =  5621.97 MB/sec
+Communication speed from master to core     6 =  5269.59 MB/sec
+Communication speed from master to core     7 =  4644.70 MB/sec
+
+Total CPU time for main thread                    :      182.2 seconds
+Total CPU time summed for all threads             :      187.5 seconds
+
+Elapsed time spent pre-processing model (/PREP7)  :        0.4 seconds
+Elapsed time spent solution - preprocessing       :        1.6 seconds
+Elapsed time spent computing solution             :      179.4 seconds
+Elapsed time spent solution - postprocessing      :        0.1 seconds
+Elapsed time spent post-processing model (/POST1) :        0.0 seconds
+ 
+Equation solver used                              :            Sparse (symmetric)
+Equation solver computational rate                :       59.4 Gflops
+Equation solver effective I/O rate                :       25.4 GB/sec
+
+Maximum total memory used                         :     7066.0 MB
+Maximum total memory allocated                    :    13908.0 MB
+Total physical memory available                   :         32 GB
+
+Total amount of I/O written to disk               :        4.6 GB
+Total amount of I/O read from disk                :       17.4 GB
+
++------ E N D   D I S T R I B U T E D   A N S Y S   S T A T I S T I C S -------+
+
+
+ *---------------------------------------------------------------------------*
+ |                                                                           |
+ |                       DISTRIBUTED ANSYS RUN COMPLETED                     |
+ |                                                                           |
+ |---------------------------------------------------------------------------|
+ |                                                                           |
+ | Ansys Release 19.2          Build 19.2         UP20180808     WINDOWS x64 |
+ |                                                                           |
+ |---------------------------------------------------------------------------|
+ |                                                                           |
+ | Database Requested(-db)  1024 MB    Scratch Memory Requested      1024 MB |
+ | Maximum Database Used      64 MB    Maximum Scratch Memory Used    851 MB |
+ |                                                                           |
+ |---------------------------------------------------------------------------|
+ |                                                                           |
+ |        CP Time      (sec) =        187.484       Time  =  01:24:00        |
+ |        Elapsed Time (sec) =        188.000       Date  =  05/18/2021      |
+ |                                                                           |
+ *---------------------------------------------------------------------------*
