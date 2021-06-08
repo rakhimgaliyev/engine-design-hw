@@ -1,0 +1,16 @@
+# encoding: utf-8
+# Release 19.2
+SetScriptVersion(Version="19.2.120")
+template1 = GetTemplate(
+    TemplateName="Static Structural",
+    Solver="ANSYS")
+system1 = template1.CreateSystem()
+geometry1 = system1.GetContainer(ComponentName="Geometry")
+geometry1.SetFile(FilePath="C:/Users/gachi/Desktop/Темирлан/engine-design-hw/расчет шатуна и пальца/Сборка1.stp")
+geometry1.Edit()
+Save(Overwrite=True)
+geometry1.Exit()
+geometry1.Edit()
+Save(Overwrite=True)
+geometry1.Exit()
+Save(Overwrite=True)
